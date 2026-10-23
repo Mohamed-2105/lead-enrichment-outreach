@@ -1,0 +1,20 @@
+# Secrets and personal data. Never commit these.
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+client_secret*.json
+
+# Results contain people's names and job titles; your own lead list may too
+output/
+drafts_eml/
+*.eml
+data/leads_input.csv
+
+# Python and system files
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

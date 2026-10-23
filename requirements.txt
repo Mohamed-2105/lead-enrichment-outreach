@@ -1,0 +1,9 @@
+pandas
+requests
+beautifulsoup4
+pydantic
+google-genai
+
+# Only for create_drafts.py (Gmail drafts, not needed for --eml):
+google-api-python-client
+google-auth-oauthlib
